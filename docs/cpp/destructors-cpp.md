@@ -83,7 +83,7 @@ int main() {
   
  In the preceding example, the destructor `String::~String` uses the `delete` operator to deallocate the space dynamically allocated for text storage.  
   
-## Delcaring destructors  
+## Declaring destructors  
  Destructors are functions with the same name as the class but preceded by a tilde (`~`)  
   
  Several rules govern the declaration of destructors. Destructors:  
@@ -113,7 +113,7 @@ int main() {
   
  There are two restrictions on the use of destructors:
  - you cannot take its address
--  derived classes do not inherit the destructor of their base class.
+ - derived classes do not inherit the destructor of their base class.
   
 ## Order of destruction  
  When an object goes out of scope or is deleted, the sequence of events in its complete destruction is as follows:  
